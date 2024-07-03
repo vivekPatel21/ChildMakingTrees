@@ -10,6 +10,7 @@ struct node{
 
 void makeChildren(struct node* root);
 void branch(struct node* root, int depth);
+void unSafeBranch(struct node* root);
 
 int main(int argc, char *argv[]){
     srand(time(NULL));
